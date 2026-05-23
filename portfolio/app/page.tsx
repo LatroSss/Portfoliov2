@@ -5,12 +5,11 @@ import Projects from "./src/components/projects";
 import Contact from "./src/components/contact";
 import Footer from "./src/components/footer";
 import About from "./src/components/about";
-
+import SiteGate from "./src/components/SiteGate";
 
 export default function Home() {
   return (
-    <>
-   
+    <SiteGate>
       <Header />
       <Hero />
       <About />
@@ -18,6 +17,6 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
-      </>
+    </SiteGate>
   );
 }
