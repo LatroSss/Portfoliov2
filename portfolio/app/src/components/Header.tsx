@@ -18,7 +18,7 @@ export default function Header() {
     <header className="relative z-50 border-b border-white/10 bg-black/40 backdrop-blur-sm">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
         <div className="font-semibold text-lg text-white">
-          MatMat<span className="text-muted">.dev</span>
+          mateuszmateja<span className="text-muted">.dev</span>
         </div>
 
         {/* Nawigacja desktop — ukryta na mobile (md:flex = widoczna od 768px) */}
